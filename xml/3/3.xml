@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE musicos [
+  <!ELEMENT musicos (musico*)>
+  <!ELEMENT musico (nombre, apodo, fechaNacimiento)>
+  <!ELEMENT nombre (#PCDATA)>
+  <!ELEMENT apodo (#PCDATA)>
+  <!ELEMENT fechaNacimiento (#PCDATA)>
+]>
+<musicos>
+  <musico>
+    <nombre>Carlos Montenegro</nombre>
+    <apodo>Coda</apodo>
+    <fechaNacimiento>1987-08-23</fechaNacimiento>
+  </musico>
+  <musico>
+    <nombre>Luna Serenata</nombre>
+    <apodo>StarDancer</apodo>
+    <fechaNacimiento>1995-04-12</fechaNacimiento>
+  </musico>
+</musicos>

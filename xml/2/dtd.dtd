@@ -1,0 +1,16 @@
+<!ELEMENT biblioteca (libro*, revista*, pelicula*)>
+<!ELEMENT libro (titulo, autor, anio_publicacion, genero_literario, numero_paginas)>
+<!ELEMENT revista (titulo, editorial, anio_publicacion, numero_volumen)>
+<!ELEMENT pelicula (titulo, director, anio_estreno, genero_cinematografico, duracion_minutos)>
+
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT autor (#PCDATA)>
+<!ELEMENT anio_publicacion (#PCDATA)>
+<!ELEMENT genero_literario (#PCDATA)>
+<!ELEMENT numero_paginas (#PCDATA)>
+<!ELEMENT editorial (#PCDATA)>
+<!ELEMENT numero_volumen (#PCDATA)>
+<!ELEMENT director (#PCDATA)>
+<!ELEMENT anio_estreno (#PCDATA)>
+<!ELEMENT genero_cinematografico (#PCDATA)>
+<!ELEMENT duracion_minutos (#PCDATA)>

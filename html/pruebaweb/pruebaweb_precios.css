@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#titulo{
+    background-color: rgb(22, 22, 22); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    margin: 0;
+    width: 100%;
+}
+
+.titulo1{
+font-family: 'Pacifico', cursive;
+color: gold;
+font-size: 4em;
+padding: 20px;
+margin: 0;
+}
+#menu {
+    background-color: rgb(22,22,22); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+    margin: 0;
+    width: 100%;
+}
+
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 5%;
+}
+
+#menu ul li a {
+    font-family: Arial;
+    color: gold;
+    font-size: 1.2em;
+    text-decoration: none;
+    padding: 15px 30px;
+    display: block;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#menu ul li a:hover {
+    background-color: #333;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+.price-list {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-left: 10%;
+    text-align: left;
+}
+
+.service {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.service-name {
+    font-weight: bold;
+}
+
+.service-description {
+    font-style: italic;
+}
+
+.service-price {
+    font-weight: bold;
+}
+
+.titulo2{
+    font-family: 'Pacifico', cursive;
+    color: gold;
+    font-size: 2.5em;
+    padding: 50px;
+    margin-left: 10%;
+    margin: 0;
+    text-align: left;
+}

@@ -1,0 +1,33 @@
+.container{
+    text-align: center;
+}
+
+.red {
+    background-color: red;
+    color: white;
+    padding: 20px;
+}
+
+.blue {
+    background-color: blue;
+    color: white;
+    padding: 20px;
+}
+
+.green {
+    background-color: green;
+    color: white;
+    padding: 20px;
+}
+
+.orange {
+    background-color: orange;
+    color: white;
+    padding: 20px;
+}
+
+.pink {
+    background-color: rgb(255, 0, 234);
+    color: white;
+    padding: 20px;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE campusfp [
+    <!ELEMENT campusfp (alumno+)>
+    <!ELEMENT alumno (nombre, carrera, edad, asignaturas, notas)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT carrera (#PCDATA)>
+    <!ELEMENT edad (#PCDATA)>
+    <!ELEMENT asignaturas (asignatura+)>
+    <!ELEMENT asignatura (#PCDATA)>
+    <!ELEMENT notas (nota+)>
+    <!ELEMENT nota (#PCDATA)>
+]>
+<campusfp>
+    <alumno>
+        <nombre>Ana Rodríguez</nombre>
+        <carrera>DAW</carrera>
+        <edad>21</edad>
+        <asignaturas>
+            <asignatura>Programación Web</asignatura>
+            <asignatura>Bases de Datos</asignatura>
+            <asignatura>Desarrollo Frontend</asignatura>
+        </asignaturas>
+        <notas>
+            <nota>8.0</nota>
+            <nota>7.5</nota>
+            <nota>9.2</nota>
+        </notas>
+    </alumno>
+    <alumno>
+        <nombre>Luis García</nombre>
+        <carrera>DAM</carrera>
+        <edad>23</edad>
+        <asignaturas>
+            <asignatura>Programación en Java</asignatura>
+            <asignatura>Desarrollo de Aplicaciones Móviles</asignatura>
+            <asignatura>Redes y Comunicaciones</asignatura>
+        </asignaturas>
+        <notas>
+            <nota>7.8</nota>
+            <nota>8.5</nota>
+            <nota>7.0</nota>
+        </notas>
+    </alumno>
+    <alumno>
+        <nombre>Carlos López</nombre>
+        <carrera>DAW</carrera>
+        <edad>20</edad>
+        <asignaturas>
+            <asignatura>Programación Web</asignatura>
+            <asignatura>Diseño de Interfaces</asignatura>
+            <asignatura>Desarrollo Backend</asignatura>
+        </asignaturas>
+        <notas>
+            <nota>9.5</nota>
+            <nota>8.2</nota>
+            <nota>9.8</nota>
+        </notas>
+    </alumno>
+    <alumno>
+        <nombre>Marta Ruiz</nombre>
+        <carrera>DAM</carrera>
+        <edad>22</edad>
+        <asignaturas>
+            <asignatura>Programación en Java</asignatura>
+            <asignatura>Desarrollo de Aplicaciones Móviles</asignatura>
+            <asignatura>Seguridad Informática</asignatura>
+        </asignaturas>
+        <notas>
+            <nota>8.2</nota>
+            <nota>9.0</nota>
+            <nota>8.5</nota>
+        </notas>
+    </alumno>
+    <alumno>
+        <nombre>Javier Martínez</nombre>
+        <carrera>DAW</carrera>
+        <edad>24</edad>
+        <asignaturas>
+            <asignatura>Programación Web</asignatura>
+            <asignatura>Diseño de Interfaces</asignatura>
+            <asignatura>Desarrollo Backend</asignatura>
+        </asignaturas>
+        <notas>
+            <nota>9.2</nota>
+            <nota>8.8</nota>
+            <nota>9.5</nota>
+        </notas>
+    </alumno>
+</campusfp>

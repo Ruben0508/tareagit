@@ -1,0 +1,36 @@
+<!DOCTYPE tienda [
+    <!ELEMENT tienda (cliente*, producto*)>
+
+    <!ELEMENT cliente (nombre, direccion, telefono?, compras?)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT direccion (calle?, apartado?, pobox?)>
+    <!ELEMENT calle (#PCDATA)>
+    <!ELEMENT apartado (#PCDATA)>
+    <!ELEMENT pobox (#PCDATA)>
+    <!ELEMENT telefono (#PCDATA)>
+    <!ELEMENT compras (producto*)>
+
+    <!ELEMENT producto (numero_serie, tipo, peso?)>
+    <!ELEMENT numero_serie (#PCDATA)>
+    <!ELEMENT tipo (#PCDATA)>
+    <!ELEMENT peso (#PCDATA)>
+]>
+
+<tienda>
+    <cliente>
+        <nombre>Cliente1</nombre>
+        <direccion>
+            <calle>Calle 1</calle>
+            <apartado>456</apartado>
+            <pobox>PO Box 123</pobox>
+        </direccion>
+        <telefono>123456789</telefono>
+        <compras>
+            <producto>
+                <numero_serie>12345</numero_serie>
+                <tipo>Electrónico</tipo>
+                <peso>2.5</peso>
+            </producto>
+        </compras>
+    </cliente>
+</tienda>

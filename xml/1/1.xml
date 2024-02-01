@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tienda [
+  <!ELEMENT tienda (productos)>
+  <!ELEMENT productos (producto+)>
+  <!ELEMENT producto (nombre, precio, stock, descripcion)>
+  <!ELEMENT nombre (#PCDATA)>
+  <!ELEMENT precio (#PCDATA)>
+  <!ELEMENT stock (#PCDATA)>
+  <!ELEMENT descripcion (#PCDATA)>
+]>
+<tienda>
+  <productos>
+    <producto>
+      <nombre>Laptop</nombre>
+      <precio>1000</precio>
+      <stock>20</stock>
+      <descripcion>Portátil de última generación</descripcion>
+    </producto>
+    <producto>
+      <nombre>Smartphone</nombre>
+      <precio>500</precio>
+      <stock>50</stock>
+      <descripcion>Teléfono inteligente con cámara de alta resolución</descripcion>
+    </producto>
+    <producto>
+      <nombre>Televisor</nombre>
+      <precio>1200</precio>
+      <stock>10</stock>
+      <descripcion>Televisor 4K con pantalla de gran tamaño</descripcion>
+    </producto>
+    <producto>
+      <nombre>Auriculares</nombre>
+      <precio>100</precio>
+      <stock>100</stock>
+      <descripcion>Auriculares inalámbricos con cancelación de ruido</descripcion>
+    </producto>
+  </productos>
+</tienda>
+
+

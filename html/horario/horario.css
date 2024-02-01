@@ -1,0 +1,54 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    padding: 20px;
+  }
+  
+  main {
+    width: 70%;
+    margin: 0 auto;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid black;
+  }
+  
+  th {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+  }
+  
+  td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+  }
+
+  .FOL {
+    background-color: blue;
+  }
+  .SistemasInformáticos {
+    background-color: greenyellow;
+  }
+  .Programación{
+    background-color: cyan;
+  }
+  .Entornosdedesarrollo{
+    background-color: grey;
+  }
+  .Lenguajesdemarca{
+    background-color: red;
+  }
+  .Basededatos{
+    background-color: orange;
+  }
+  .RECREO{
+    background: linear-gradient(90deg, yellow, rgb(0, 255, 98) , yellow) ;
+  }
